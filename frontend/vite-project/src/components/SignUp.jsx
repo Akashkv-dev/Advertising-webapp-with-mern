@@ -34,7 +34,7 @@ const SignUp = () => {
          }
 
             try {
-                await axios.post('http://localhost:3000/register',userData)
+                await axios.post('https://mernapp-osme.onrender.com/register',userData)
                 .then((response)=>{
                     if(response.status===200){
                         console.log(response);

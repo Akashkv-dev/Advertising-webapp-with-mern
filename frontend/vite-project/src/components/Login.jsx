@@ -25,7 +25,7 @@ const Login = () => {
     
    const response =await axios({
         method: 'post',
-        url: 'http://localhost:3000/login',
+        url: 'https://mernapp-osme.onrender.com/login',
         data: {
             email,
             password
